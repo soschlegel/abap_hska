@@ -19,6 +19,6 @@ To install the front-end component of ADT, proceed as follows:
 * Create Your First ABAP Console Application: [Link](https://developers.sap.com/tutorials/abap-environment-console-application.html)
 
 # ABAP Code Conventions
-(Replace ## with group name)
+(Replace ## with group number)
 * Package: YHSKA##
 * Class: YCL_HSKA##
