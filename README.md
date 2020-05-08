@@ -30,6 +30,8 @@ To install the front-end component of ADT, proceed as follows:
 * Package: YHSKA##
 * Class: YCL_HSKA##
 
-# Known Errors
+# Useful
+The [12 most useful keyboard shortcuts](ABAP_Shortcuts.md)
 
+# Known Errors
 * No SMS during Registration
