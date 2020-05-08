@@ -2,9 +2,10 @@
 
 On this Page, you'll find important information like links, snippets etc. needed for the course
 
+# ADT installation:
 Procedure
 To install the front-end component of ADT, proceed as follows:
-1. Get an installation of Eclipse 2020-03 <https://www.eclipse.org/downloads/packages/release/2020-03/r> (e.g. Eclipse IDE for Java Developers)
+1. Get an installation of [Eclipse 2020-03](https://www.eclipse.org/downloads/packages/release/2020-03/r) (e.g. Eclipse IDE for Java Developers)
 2. In Eclipse, choose in the menu bar Help > Install New Software...
 3. Enter the URL <https://tools.hana.ondemand.com/latest>
 4. Press Enter to display the available features.
