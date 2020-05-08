@@ -1,3 +1,1 @@
-# ABAP HSKA
-
-## Important Links
+# Important Links
