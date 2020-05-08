@@ -2,7 +2,9 @@
 
 On this Page, you'll find important information like links, snippets etc. needed for the course
 
-# ADT installation:
+# Step 1
+
+## ADT installation:
 To install the front-end component of ADT, proceed as follows:
 1. Get an installation of [Eclipse 2020-03](https://www.eclipse.org/downloads/packages/release/2020-03/r) (e.g. Eclipse IDE for Java Developers)
 2. In Eclipse, choose in the menu bar Help > Install New Software...
@@ -13,12 +15,16 @@ To install the front-end component of ADT, proceed as follows:
 7. Confirm the license agreements and choose Finish to start the installation.
 <!-- Quelle: https://tools.hana.ondemand.com/#abap -->
 
-# Onboarding Links for ABAP in the Cloud
+# Step 2
+
+## Onboarding Links for ABAP in the Cloud
 * Create a Trial Account on SAP Cloud Platform: [Link](https://developers.sap.com/tutorials/hcp-create-trial-account.html)
 * Create an SAP Cloud Platform ABAP Environment Trial User: [Link](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html)
 * Create Your First ABAP Console Application: [Link](https://developers.sap.com/tutorials/abap-environment-console-application.html)
 
-# ABAP Code Conventions
+### Error-Handling
+
+## ABAP Code Conventions
 (Replace ## with group number)
 * Package: YHSKA##
 * Class: YCL_HSKA##
