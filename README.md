@@ -17,3 +17,8 @@ To install the front-end component of ADT, proceed as follows:
 * Create a Trial Account on SAP Cloud Platform: [Link](https://developers.sap.com/tutorials/hcp-create-trial-account.html)
 * Create an SAP Cloud Platform ABAP Environment Trial User: [Link](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html)
 * Create Your First ABAP Console Application: [Link](https://developers.sap.com/tutorials/abap-environment-console-application.html)
+
+# ABAP Code Conventions (during the course)
+(Replace ## with group name)
+* Package: YHSKA##
+* Class: YCL_HSKA##
