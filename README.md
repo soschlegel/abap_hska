@@ -31,7 +31,7 @@ To install the front-end component of ADT, proceed as follows:
 * Class: YCL_HSKA##
 
 # Useful
-The [12 most useful keyboard shortcuts](ABAP_Shortcuts.md)
+The [12 most useful keyboard shortcuts](https://soschlegel.github.io/abap_hska/ABAP_Shortcuts.html)
 
 # Known Errors
 * No SMS during Registration
