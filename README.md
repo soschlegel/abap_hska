@@ -13,3 +13,6 @@ To install the front-end component of ADT, proceed as follows:
 7. Confirm the license agreements and choose Finish to start the installation.
 <!-- Quelle: https://tools.hana.ondemand.com/#abap -->
 
+# Onboarding Links for ABAP in the Cloud
+* Create a Trial Account on SAP Cloud Platform: [Link](https://developers.sap.com/tutorials/hcp-create-trial-account.html)
+* Create an SAP Cloud Platform ABAP Environment Trial User: [Link](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html)
