@@ -38,8 +38,10 @@ The [12 most useful keyboard shortcuts](https://soschlegel.github.io/abap_hska/A
 ## Day 2
 
 * ABAP Classes
-** Lecture: 12:00 to 12:40
-** Lunch-Break & Hands-On: 12:40 to 14:00
+- Lecture: 12:00 to 12:40
+- Lunch-Break & Hands-On: 12:40 to 14:00
+- Exchange and Discussion: 14:00 to 14:15
+- Hands-On Completion: 14:15 to 15:00
 
 # Known Errors
 * No SMS during Registration
