@@ -99,11 +99,7 @@ You can access them via the following command
 
 ```
 
-## Possible Tables for try out
-
-/DMO/I_Airport
-
-### Get new Index
+#### Get new Index
 
 Working with MAX is depending on the approach of implementation not possible.
 
@@ -113,9 +109,9 @@ Other Possibilities are:
 * Save your MAX_INDEX in a class attribute
 * If you use an internal Table: It's also possible to handle an internal Table like a DB-table [LINK](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/de-DE/abapselect_itab.htm)
 
-## Database and SQL
+### Database and SQL
 
-### Possible views and tables to try Selects
+#### Possible views and tables to try Selects
 
 Information: Don't try Delete or Update! Only Select!
 
