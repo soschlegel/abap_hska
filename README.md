@@ -45,8 +45,10 @@ The [12 most useful keyboard shortcuts](https://soschlegel.github.io/abap_hska/A
    * 12:00 to 12:40: Lecture (including live demo)
    * 12:40 to 14:00: Lunch-Break & Hands-On
    * 14:00 to 14:15: Exchange and Discussion
-   * 14:15 to 15:00: Hands-On Completion
+   * 14:15 to 15:20: Hands-On Completion
 
+3. Database Accesses (ABAP Dictionary)
+   * 15:30 to 16:00: Lecture (including live demo)
 
 ## Day 3
 
