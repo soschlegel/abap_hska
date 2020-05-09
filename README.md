@@ -45,7 +45,7 @@ The [12 most useful keyboard shortcuts](https://soschlegel.github.io/abap_hska/A
    * 12:00 to 12:40: Lecture (including live demo)
    * 12:40 to 14:00: Lunch-Break & Hands-On
    * 14:00 to 14:15: Exchange and Discussion
-   * 14:15 to 15:00: Hands-On Completion
+   * 14:15 to 15:25: Hands-On Completion
 
 
 ## Day 3
@@ -79,17 +79,21 @@ You can access them via the following command
 
 ```
 
+## Possible Tables for try out
+
+/DMO/I_Airport
+
 ### Get new Index
 
 Working with MAX is depending on the approach of implementation not possible.
 
 Other Possibilities are:
-   * Sort your list descending, read first line and add 1
-   * Save your MAX_INDEX in a class attribute
-   * If you use an internal Table: It's also possible to handle an internal Table like a DB-table [LINK](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/de-DE/abapselect_itab.htm)
+* Sort your list descending, read first line and add 1
+* Save your MAX_INDEX in a class attribute
+* If you use an internal Table: It's also possible to handle an internal Table like a DB-table [LINK](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/de-DE/abapselect_itab.htm)
 
 # Known Errors
    
-   * No SMS during Trial-Account Registration
-      - Try with Page Reload
-      - Add the leading 0
+* No SMS during Trial-Account Registration
+  - Try with Page Reload
+  - Add the leading 0
