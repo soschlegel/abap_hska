@@ -35,17 +35,17 @@ The [12 most useful keyboard shortcuts](https://soschlegel.github.io/abap_hska/A
 ## Day 2
 
 1. Internal Tables
-    * Onboarding: 9:00 to 9:15
-    * Lecture: 9:15 to 10:15 (including live demo)
-    * Hands-on: 10:15 to 11:00 (including small break)
-    * Feedback and Questions: 11:00 to 11:30
-    * Hands-On Completion: 11:30 to 11:55
+    * 09:00 to 09:15: Onboarding
+    * 09:15 to 10:15: Lecture (including live demo)
+    * 10:15 to 11:00: Hands-on (including small break)
+    * 11:00 to 11:30: Feedback and Questions
+    * 11:30 to 11:55: Hands-On Completion
 
 2. ABAP Classes
-   * Lecture: 12:00 to 12:40 (including live demo)
-   * Lunch-Break & Hands-On: 12:40 to 14:00
-   * Exchange and Discussion: 14:00 to 14:15
-   * Hands-On Completion: 14:15 to 15:00
+   * 12:00 to 12:40: Lecture (including live demo)
+   * 12:40 to 14:00: Lunch-Break & Hands-On
+   * 14:00 to 14:15: Exchange and Discussion
+   * 14:15 to 15:00: Hands-On Completion
 
 
 ## Day 3
