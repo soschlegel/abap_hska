@@ -1,9 +1,11 @@
-# About
+# Motivation
 
 On this Page, you'll find important information like links, snippets etc. needed for the course
 
-# ADT installation:
+## ADT installation
+
 To install the front-end component of ADT, proceed as follows:
+
 1. Get an installation of [Eclipse 2020-03](https://www.eclipse.org/downloads/packages/release/2020-03/r) (e.g. Eclipse IDE for Java Developers)
 2. In Eclipse, choose in the menu bar Help > Install New Software...
 3. Enter the URL <https://tools.hana.ondemand.com/latest>
@@ -13,26 +15,28 @@ To install the front-end component of ADT, proceed as follows:
 7. Confirm the license agreements and choose Finish to start the installation.
 <!-- Quelle: https://tools.hana.ondemand.com/#abap -->
 
-# ABAP Code Conventions
+## ABAP Code Conventions
+
 (Replace ## with group number)
+
 * Package: YHSKA##
 * Class: YCL_HSKA##
 
-# Useful
+## Useful
+
 The [12 most useful keyboard shortcuts](https://soschlegel.github.io/abap_hska/ABAP_Shortcuts.html)
 
-# Onboarding Links for ABAP in the Cloud and Hands On
+## Onboarding Links for ABAP in the Cloud and Hands On
+
 * Create a Trial Account on SAP Cloud Platform: [Link](https://developers.sap.com/tutorials/hcp-create-trial-account.html)
 * Create an SAP Cloud Platform ABAP Environment Trial User: [Link](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html)
 * Create Your First ABAP Console Application: [Link](https://developers.sap.com/tutorials/abap-environment-console-application.html)
 
+## Timeline
 
+### Day 1
 
-# Timeline
-
-## Day 1
-
-## Day 2
+### Day 2
 
 1. Internal Tables
     * 09:00 to 09:15: Onboarding
@@ -51,13 +55,20 @@ The [12 most useful keyboard shortcuts](https://soschlegel.github.io/abap_hska/A
    * 15:30 to 16:00: Lecture (including live demo)
    * 16:00 to 16:25: Hands-On (including small break)
 
-## Day 3
+4. OData
+   * 16:30 to 16:50: Introduction
 
-# Tipps and hints
+5. CDS
+    * 16:50 to 17:30: Introduction (including Demo and longer break)
+    * 17:30 to 18:30: First Steps and Hands-On
 
-## Classes
+### Day 3
 
-### READ TABLE for TABLE OF REF
+## Tipps and hints
+
+### Classes
+
+#### READ TABLE for TABLE OF REF
 
 In case of following definition of class LCL_PERSON
 
@@ -91,10 +102,11 @@ You can access them via the following command
 Working with MAX is depending on the approach of implementation not possible.
 
 Other Possibilities are:
-   * Sort your list descending, read first line and add 1
-   * Save your MAX_INDEX in a class attribute
-   * If you use an internal Table: It's also possible to handle an internal Table like a DB-table [LINK](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/de-DE/abapselect_itab.htm)
-   
+
+* Sort your list descending, read first line and add 1
+* Save your MAX_INDEX in a class attribute
+* If you use an internal Table: It's also possible to handle an internal Table like a DB-table [LINK](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/de-DE/abapselect_itab.htm)
+
 ## Database and SQL
 
 ### Possible views and tables to try Selects
@@ -105,8 +117,14 @@ Information: Don't try Delete or Update! Only Select!
 * I_Country
 * /DMO/I_Booking
 
-# Known Errors
-   
+## ABAP/SAP on Youtube
+
+1. [Thomas Jung](https://www.youtube.com/user/ThomasJung1)
+2. [DJ Adams](https://www.youtube.com/user/qmacro99)
+3. [Gregor Wolf](https://www.youtube.com/user/lupomania)
+
+## Known Errors
+
 * No SMS during Trial-Account Registration
-  - Try with Page Reload
-  - Add the leading 0
+  * Try with Page Reload
+  * Add the leading 0
