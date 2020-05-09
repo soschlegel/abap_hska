@@ -60,9 +60,15 @@ The [12 most useful keyboard shortcuts](https://soschlegel.github.io/abap_hska/A
 
 5. CDS
     * 16:50 to 17:30: Introduction (including Demo and longer break)
-    * 17:30 to 18:30: First Steps and Hands-On
+    * 17:30 to 19:00: First Steps and Hands-On
 
 ### Day 3
+
+1. ABAP RESTful Programming Model
+
+## RAP
+
+* Develop a Fiori App Using the ABAP RESTful Programming Model (Managed Scenario) [LINK](https://developers.sap.com/group.abap-env-restful-managed.html)
 
 ## Tipps and hints
 
