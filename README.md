@@ -61,7 +61,7 @@ In case of following definition of class LCL_PERSON
 ``` abap
 
     TYPES:
-        BEGIN OF ts_person.
+        BEGIN OF ts_person,
             id TYPE i,
         END OF ts_person.
 
@@ -80,6 +80,7 @@ You can access them via the following command
 ```
 
 # Known Errors
-1. No SMS during Trial-Account Registration
-   * Try with Page Reload
-   * Add the leading 0
+
+* No SMS during Trial-Account Registration
+    - Try with Page Reload
+    - Add the leading 0
