@@ -49,6 +49,7 @@ The [12 most useful keyboard shortcuts](https://soschlegel.github.io/abap_hska/A
 
 3. Database Accesses (ABAP Dictionary)
    * 15:30 to 16:00: Lecture (including live demo)
+   * 16:00 to 16:25: Hands-On (including small break)
 
 ## Day 3
 
@@ -89,6 +90,14 @@ Other Possibilities are:
    * Sort your list descending, read first line and add 1
    * Save your MAX_INDEX in a class attribute
    * If you use an internal Table: It's also possible to handle an internal Table like a DB-table [LINK](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/de-DE/abapselect_itab.htm)
+   
+## Database and SQL
+
+### Possible views and tables to try Selects
+
+Information: Don't try Delete or Update! Only Select!
+
+* /DMO/I_Airport
 
 # Known Errors
    
