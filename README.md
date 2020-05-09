@@ -102,6 +102,8 @@ Other Possibilities are:
 Information: Don't try Delete or Update! Only Select!
 
 * /DMO/I_Airport
+* I_Country
+* /DMO/I_Booking
 
 # Known Errors
    
