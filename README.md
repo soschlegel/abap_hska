@@ -50,6 +50,35 @@ The [12 most useful keyboard shortcuts](https://soschlegel.github.io/abap_hska/A
 
 ## Day 3
 
+# Tipps and hints
+
+## Classes
+
+### READ TABLE for TABLE OF REF
+
+In case of following definition of class LCL_PERSON
+
+``` abap
+
+    TYPES:
+        BEGIN OF ts_person.
+            id TYPE i,
+        END OF ts_person.
+
+    DATA:
+        ms_person TYPE ts_person,
+        mt_person TYPE TABLE OF REF TO lcl_person.
+
+```
+
+You can access them via the following command
+
+``` abap
+
+    READ TABLE mt_person WITH KEY table_line->ms_person-id = iv_id INTO DATA(lo_person)
+
+```
+
 # Known Errors
 1. No SMS during Trial-Account Registration
    * Try with Page Reload
