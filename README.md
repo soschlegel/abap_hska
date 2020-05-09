@@ -79,6 +79,15 @@ You can access them via the following command
 
 ```
 
+### Get new Index
+
+Working with MAX is depending on the approach of implementation not possible.
+
+Other Possibilities are:
+* Sort your list descending, read first line and add 1
+* Save your MAX_INDEX in a class attribute
+* If you use an internal Table: It's also possible to handle an internal Table like a DB-table [LINK](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/de-DE/abapselect_itab.htm)
+
 # Known Errors
 
 * No SMS during Trial-Account Registration
