@@ -66,7 +66,7 @@ The [12 most useful keyboard shortcuts](https://soschlegel.github.io/abap_hska/A
 
 1. ABAP RESTful Programming Model
     * 09:00 to 09:45: Welcome and OData History/Old Fashioned
-    * 09:45 to 10:30: Introduction to ABAP RESTful Programming Model [LINK](presentation/04_01_RAP_Overview.pdf)
+    * 09:45 to 10:30: Introduction to ABAP RESTful Programming Model [LINK](presentations/04_01_RAP_Overview.pdf)
     * 10:30 to 12:00: Hands-On (see below)
 
 ## RAP
