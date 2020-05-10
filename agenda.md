@@ -38,3 +38,6 @@
     * 12:10 to 12:30: Hands-On again
     * 12:30 to 12:45: [Introduction EML](https://help.sap.com/viewer/923180ddb98240829d935862025004d6/Cloud/en-US/ec279ca529d4497ea41e7674a4daf9e2.html) &rightarrow; [Presentation](presentations/EML.pptx) 
     * 12:45 to 14:30: Hands-On and Launch Break [Exercise](eml_task.md)
+    * 14:30 to 14:45: Homework-Presentation
+    * 14:45 to 19:00: Start your work :-)
+  

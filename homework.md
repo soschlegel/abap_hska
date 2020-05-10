@@ -23,4 +23,5 @@ Build for me a web-based Application, where I can see, what's the new cool and f
 
 * Use Web-Service
 * Use EML in any way
+* Use some nice Visualization (i.e. [Star Rating](presentations/Bewertungssterne.pdf) )
   
