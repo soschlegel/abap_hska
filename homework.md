@@ -14,6 +14,11 @@ Build for me a web-based Application, where I can see, what's the new cool and f
 * Integrate some Validations
 * Integrate any kind of Action
 
+## Organisation
+
+* Create a Git-Repository
+* Package-Name YHSKA_##_HomeWork
+
 ## Optional Ideas for improvements
 
 * Use Web-Service
