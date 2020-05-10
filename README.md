@@ -68,6 +68,10 @@ The [12 most useful keyboard shortcuts](https://soschlegel.github.io/abap_hska/A
     * 09:00 to 09:45: Welcome and OData History/Old Fashioned
     * 09:45 to 10:30: [Introduction to ABAP RESTful Programming Model](presentations/04_01_RAP_Overview.pdf)
     * 10:30 to 12:00: Hands-On (see below)
+    * 12:00 to 12:10: Recap
+    * 12:10 to 12:30: Hands-On again
+    * 12:30 to 12:45: Introduction [EML](https://help.sap.com/viewer/ab6b04eb12d3452aa904d5823416a065/2.0.02/en-US/4e74eb581f044d71a77a1f14c4b9b38f.html) [Presentation](presentations/EML.pptx)
+    * 12:45 to 14:30: Hands-On and Launch Break [TASK](eml_task.md)
 
 ## RAP
 
