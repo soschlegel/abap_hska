@@ -2,6 +2,9 @@
 
 On this Page, you'll find important information like links, snippets etc. needed for the course
 
+* [Agenda](agenda.md)
+* [Tipps & Hints](hints.md)
+
 ## ADT installation
 
 To install the front-end component of ADT, proceed as follows:
@@ -24,54 +27,13 @@ To install the front-end component of ADT, proceed as follows:
 
 ## Useful
 
-The [12 most useful keyboard shortcuts](https://soschlegel.github.io/abap_hska/ABAP_Shortcuts.html)
+The [12 most useful keyboard shortcuts](ABAP_Shortcuts.md)
 
 ## Onboarding Links for ABAP in the Cloud and Hands On
 
 * [Create a Trial Account on SAP Cloud Platform](https://developers.sap.com/tutorials/hcp-create-trial-account.html)
 * [Create an SAP Cloud Platform ABAP Environment Trial User](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html)
 * [Create Your First ABAP Console Application](https://developers.sap.com/tutorials/abap-environment-console-application.html)
-
-## Timeline
-
-### Day 1
-
-### Day 2
-
-1. Internal Tables
-    * 09:00 to 09:15: Onboarding
-    * 09:15 to 10:15: Lecture (including live demo)
-    * 10:15 to 11:00: Hands-on (including small break)
-    * 11:00 to 11:30: Feedback and Questions
-    * 11:30 to 11:55: Hands-On Completion
-
-2. ABAP Classes
-   * 12:00 to 12:40: Lecture (including live demo)
-   * 12:40 to 14:00: Lunch-Break & Hands-On
-   * 14:00 to 14:15: Exchange and Discussion
-   * 14:15 to 15:20: Hands-On Completion
-
-3. Database Accesses (ABAP Dictionary)
-   * 15:30 to 16:00: Lecture (including live demo)
-   * 16:00 to 16:25: Hands-On (including small break)
-
-4. OData
-   * 16:30 to 16:50: Introduction
-
-5. CDS
-    * 16:50 to 17:30: Introduction (including Demo and longer break)
-    * 17:30 to 19:00: First Steps and Hands-On
-
-### Day 3
-
-1. ABAP RESTful Programming Model
-    * 09:00 to 09:45: Welcome and OData History/Old Fashioned
-    * 09:45 to 10:30: [Introduction to ABAP RESTful Programming Model](presentations/04_01_RAP_Overview.pdf)
-    * 10:30 to 12:00: Hands-On (see below)
-    * 12:00 to 12:10: Recap
-    * 12:10 to 12:30: Hands-On again
-    * 12:30 to 12:45: Introduction [EML](https://help.sap.com/viewer/ab6b04eb12d3452aa904d5823416a065/2.0.02/en-US/4e74eb581f044d71a77a1f14c4b9b38f.html) [Presentation](presentations/EML.pptx)
-    * 12:45 to 14:30: Hands-On and Launch Break [TASK](eml_task.md)
 
 ## RAP
 
@@ -84,55 +46,6 @@ The [12 most useful keyboard shortcuts](https://soschlegel.github.io/abap_hska/A
 * [Create and Deploy HTML5 and SAP Fiori Launchpad Site Modules](https://developers.sap.com/tutorials/abap-environment-deploy-cf-production.html)
   * *Optional*
   * Be carefull to enter the Trial Account - otherwise you have to register for paid account
-
-## Tipps and hints
-
-### Classes
-
-#### READ TABLE for TABLE OF REF
-
-In case of following definition of class LCL_PERSON
-
-``` abap
-
-    TYPES:
-        BEGIN OF ts_person,
-            id TYPE i,
-        END OF ts_person.
-
-    DATA:
-        ms_person TYPE ts_person,
-        mt_person TYPE TABLE OF REF TO lcl_person.
-
-```
-
-You can access them via the following command
-
-``` abap
-
-    READ TABLE mt_person WITH KEY table_line->ms_person-id = iv_id INTO DATA(lo_person)
-
-```
-
-#### Get new Index
-
-Working with MAX is depending on the approach of implementation not possible.
-
-Other Possibilities are:
-
-* Sort your list descending, read first line and add 1
-* Save your MAX_INDEX in a class attribute
-* If you use an internal Table: It's also possible to handle an internal Table like a DB-table [LINK](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/de-DE/abapselect_itab.htm)
-
-### Database and SQL
-
-#### Possible views and tables to try Selects
-
-Information: Don't try Delete or Update! Only Select!
-
-* /DMO/I_Airport
-* I_Country
-* /DMO/I_Booking
 
 ## ABAP/SAP on Youtube
 
