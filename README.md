@@ -30,7 +30,7 @@ The [12 most useful keyboard shortcuts](https://soschlegel.github.io/abap_hska/A
 
 * Create a Trial Account on SAP Cloud Platform: [Link](https://developers.sap.com/tutorials/hcp-create-trial-account.html)
 * Create an SAP Cloud Platform ABAP Environment Trial User: [Link](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html)
-* Create Your First ABAP Console Application: [Link](https://developers.sap.com/tutorials/abap-environment-console-application.html)
+* [Create Your First ABAP Console Application](https://developers.sap.com/tutorials/abap-environment-console-application.html)
 
 ## Timeline
 
@@ -66,7 +66,7 @@ The [12 most useful keyboard shortcuts](https://soschlegel.github.io/abap_hska/A
 
 1. ABAP RESTful Programming Model
     * 09:00 to 09:45: Welcome and OData History/Old Fashioned
-    * 09:45 to 10:30: Introduction to ABAP RESTful Programming Model [LINK](presentations/04_01_RAP_Overview.pdf)
+    * 09:45 to 10:30: [Introduction to ABAP RESTful Programming Model](presentations/04_01_RAP_Overview.pdf)
     * 10:30 to 12:00: Hands-On (see below)
 
 ## RAP
