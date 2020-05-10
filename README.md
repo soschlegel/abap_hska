@@ -4,6 +4,7 @@ On this Page, you'll find important information like links, snippets etc. needed
 
 * [Agenda](agenda.md)
 * [Tipps & Hints](hints.md)
+* [Snippets](snippets.md)
 
 ## ADT installation
 
