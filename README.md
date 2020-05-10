@@ -78,7 +78,8 @@ The [12 most useful keyboard shortcuts](https://soschlegel.github.io/abap_hska/A
   * Use the same Transport Request, that you used before!
   * Change Classname of **ZCL_GENERATE_TRAVEL_DATA_XXX** to **ZCL_GEN_TRAVEL_DATA_HSKA00**
 * [Create and Deploy HTML5 and SAP Fiori Launchpad Site Modules](https://developers.sap.com/tutorials/abap-environment-deploy-cf-production.html)
-  * *It seems, that SAP changed Licensing, so that this exercise requires a paid service - so just skip this one!*
+  * *Optional*
+  * Be carefull to enter the Trial Account - otherwise you have to register for paid account
 
 ## Tipps and hints
 
