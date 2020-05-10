@@ -46,3 +46,24 @@ Information: Don't try Delete or Update! Only Select!
 * /DMO/I_Airport
 * I_Country
 * /DMO/I_Booking
+
+## Naming Conventions for Dev Objects (for CDS Objects)
+### General Rules
+`<namespace>_[prefix]_<objectName>_[suffix]`
+
+Examples:
+* /DMO/I_Booking
+* YHSKA_I_Booking
+* ZTUTOR_I_TRAVEL_U
+
+Consider that the namespace `/DMO/` is reserved for demo purposes. Do not use this namespace in your package.
+
+The  **suffixed** characters (**_R** , **_U**, **_M**, **_C**) used in the ABAP Flight Reference Scenario identifie the development object to belong to one specific development guide (Read-only, Unmanaged, Managed, service Consumption).
+
+### CDS Objects
+Use the prefix:
+* **I_** for an interface view.
+* **C_** for a projection view. (The character C represents the consumption layer)
+ * **BP_** for an ABAP class that implements the behavior of a business object.
+
+Example: /DMO/I_Travel_U, /DMO/C_Travel_Processor_M, /DMO/BP_ORDER_U, ...
