@@ -72,7 +72,8 @@ The [12 most useful keyboard shortcuts](https://soschlegel.github.io/abap_hska/A
 ## RAP
 
 * [Develop a Fiori App Using the ABAP RESTful Programming Model (Managed Scenario)](https://developers.sap.com/group.abap-env-restful-managed.html)
-* [Create Table Persistence and Generate Data](https://developers.sap.com/tutorials/abap-environment-persistence.html): Use your own Package or as described with "HSKA##" instead of "XXX"
+* [Create Table Persistence and Generate Data](https://developers.sap.com/tutorials/abap-environment-persistence.html): Use your own Package or as described with "HSKA##" instead of "XXX" /
+* Change Classname of ZCL_GENERATE_TRAVEL_DATA_XXX to ZCL_GEN_TRAVEL_DATA_HSKA00
 
 ## Tipps and hints
 
