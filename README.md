@@ -73,10 +73,12 @@ The [12 most useful keyboard shortcuts](https://soschlegel.github.io/abap_hska/A
 
 * [Develop a Fiori App Using the ABAP RESTful Programming Model (Managed Scenario)](https://developers.sap.com/group.abap-env-restful-managed.html)
   * Use your own Package or as described with **HSKA##** instead of **XXX**
-  * In General: Use **HSKA** for every Object instead of ***XXX**
+  * In General: Use **HSKA** for every Object instead of **XXX**
 * [Create Table Persistence and Generate Data](https://developers.sap.com/tutorials/abap-environment-persistence.html)
   * Use the same Transport Request, that you used before!
   * Change Classname of **ZCL_GENERATE_TRAVEL_DATA_XXX** to **ZCL_GEN_TRAVEL_DATA_HSKA00**
+* [Create and Deploy HTML5 and SAP Fiori Launchpad Site Modules](https://developers.sap.com/tutorials/abap-environment-deploy-cf-production.html)
+  * *It seems, that SAP changed Licensing, so that this exercise requires a paid service - so just skip this one!*
 
 ## Tipps and hints
 
