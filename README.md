@@ -28,8 +28,8 @@ The [12 most useful keyboard shortcuts](https://soschlegel.github.io/abap_hska/A
 
 ## Onboarding Links for ABAP in the Cloud and Hands On
 
-* Create a Trial Account on SAP Cloud Platform: [Link](https://developers.sap.com/tutorials/hcp-create-trial-account.html)
-* Create an SAP Cloud Platform ABAP Environment Trial User: [Link](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html)
+* [Create a Trial Account on SAP Cloud Platform](https://developers.sap.com/tutorials/hcp-create-trial-account.html)
+* [Create an SAP Cloud Platform ABAP Environment Trial User](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html)
 * [Create Your First ABAP Console Application](https://developers.sap.com/tutorials/abap-environment-console-application.html)
 
 ## Timeline
@@ -71,7 +71,7 @@ The [12 most useful keyboard shortcuts](https://soschlegel.github.io/abap_hska/A
 
 ## RAP
 
-* Develop a Fiori App Using the ABAP RESTful Programming Model (Managed Scenario) [LINK](https://developers.sap.com/group.abap-env-restful-managed.html)
+* [Develop a Fiori App Using the ABAP RESTful Programming Model (Managed Scenario)](https://developers.sap.com/group.abap-env-restful-managed.html)
 
 ## Tipps and hints
 
