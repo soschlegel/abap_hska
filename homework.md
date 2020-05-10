@@ -24,4 +24,8 @@ Build for me a web-based Application, where I can see, what's the new cool and f
 * Use Web-Service
 * Use EML in any way
 * Use some nice Visualization (i.e. [Star Rating](presentations/Bewertungssterne.pdf) )
+
+## Important Notes
+
+**If you use any composition between any kind of parent and child entity, then you should take a look at CDS-View */DMO/I_TRAVEL_M* and all related artifacts around to understand how *association to parent* works in combination with *composition [0..*] of* - otherwise you will for sure loose a lot of time**
   
