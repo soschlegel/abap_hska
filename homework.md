@@ -27,5 +27,9 @@ Build for me a web-based Application, where I can see, what's the new cool and f
 
 ## Important Notes
 
-**If you use any composition between any kind of parent and child entity, then you should take a look at CDS-View */DMO/I_TRAVEL_M* and all related artifacts around to understand how *association to parent* works in combination with *composition [0..*] of* - otherwise you will for sure loose a lot of time**
+* **If you use any composition between any kind of parent and child entity, then you should take a look at CDS-View */DMO/I_TRAVEL_M* and all related artifacts around to understand how *association to parent* works in combination with *composition [0..*] of* - otherwise you will for sure loose a lot of time**
+
+* For your validation you should create a message for the user and this requires a Message-Class (it's not a typical class like used in OO-Programming!). A short introduction can be found [here](presentations/MessageClass.pdf)
+
+* In the Git-Explanation is an error in chapter 1. Don't use the Continous Integration Plugin - use instead the one explained [here](https://tools.hana.ondemand.com/#abap) under the section *abapGit*. A small example is described [here](https://developers.sap.com/tutorials/abap-environment-abapgit.html#f04bf1cc-915a-4eb7-b54f-fd923a4e0f2d), but keep in mind, that you use an other scenario (you work with *Cloud-to-Cloud* and not *On-Prem-To-Cloud*).
   
