@@ -27,6 +27,8 @@ Build for me a web-based Application, where I can see, what's the new cool and f
 
 ## Important Notes
 
+* [Official Documentation for Managed Scenario](https://help.sap.com/viewer/923180ddb98240829d935862025004d6/Cloud/en-US/b5bba99612cf4637a8b72a3fc82c22d9.html)
+
 * **If you use any composition between any kind of parent and child entity, then you should take a look at CDS-View */DMO/I_TRAVEL_M* and all related artifacts around to understand how *association to parent* works in combination with *composition [0..*] of* - otherwise you will for sure loose a lot of time**
 
 * For your validation you should create a message for the user and this requires a Message-Class (it's not a typical class like used in OO-Programming!). A short introduction can be found [here](presentations/MessageClass.pdf)
