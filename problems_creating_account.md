@@ -8,11 +8,13 @@ During the creation steps according to [this tutorial](https://developers.sap.co
 
 This can be caused be problems on the hardware in Europe.
 
-## Solution
+## Solution for fresh Starters
 
 If you are at the beginning, simply select US at this point:
 
 ![Select Area](img/2020-11-19-18-49-14.png)
+
+## Solution for unsuccesful early-birds
 
 If you already created an account, then just create a second one in the US.
 
