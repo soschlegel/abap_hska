@@ -71,3 +71,4 @@ The [12 most useful keyboard shortcuts](ABAP_Shortcuts.md)
 * No SMS during Trial-Account Registration
   * Try with Page Reload
   * Add the leading 0
+* [Error during creation of Sub-Account or missing ABAP environment](problems_creating_account.md)
