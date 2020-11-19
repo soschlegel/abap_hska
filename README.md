@@ -20,6 +20,11 @@ To install the front-end component of ADT, proceed as follows:
 7. Confirm the license agreements and choose Finish to start the installation.
 <!-- Quelle: https://tools.hana.ondemand.com/#abap -->
 
+## Onboarding Links for ABAP in the Cloud
+
+* [Create a Trial Account on SAP Cloud Platform](https://developers.sap.com/tutorials/hcp-create-trial-account.html)
+* [Create an SAP Cloud Platform ABAP Environment Trial User](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html)
+
 ## ABAP Code Conventions
 
 (Replace ## with group number)
@@ -31,10 +36,8 @@ To install the front-end component of ADT, proceed as follows:
 
 The [12 most useful keyboard shortcuts](ABAP_Shortcuts.md)
 
-## Onboarding Links for ABAP in the Cloud and Hands On
+## First Hands On
 
-* [Create a Trial Account on SAP Cloud Platform](https://developers.sap.com/tutorials/hcp-create-trial-account.html)
-* [Create an SAP Cloud Platform ABAP Environment Trial User](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html)
 * [Create Your First ABAP Console Application](https://developers.sap.com/tutorials/abap-environment-console-application.html)
 
 ## RAP
@@ -54,6 +57,10 @@ The [12 most useful keyboard shortcuts](ABAP_Shortcuts.md)
 1. [Thomas Jung](https://www.youtube.com/user/ThomasJung1)
 2. [DJ Adams](https://www.youtube.com/user/qmacro99)
 3. [Gregor Wolf](https://www.youtube.com/user/lupomania)
+
+## OpenSAP
+
+- [Building Apps with the ABAP RESTful Application Programming Model](https://open.sap.com/courses/cp13)
 
 ## Documentations
 
