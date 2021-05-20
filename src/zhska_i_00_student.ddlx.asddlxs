@@ -1,0 +1,18 @@
+@Metadata.layer: #PARTNER
+annotate view ZHSKA_I_00_STUDENT with
+{
+
+  @UI.facet: [ { id:              'Student',
+                 purpose:         #STANDARD,
+                 type:            #IDENTIFICATION_REFERENCE,
+                 label:           'Studentendaten',
+                 position:        10 } ]
+
+  @UI.lineItem: [{ label: 'Studenten ID' }]
+  @UI.identification: [{ label: 'Studenten Nummer' }]
+  StudentID;
+  
+  @UI.lineItem: [{ label: 'Name' }]
+  @UI.identification: [{ label: 'Name des Studenten' }]
+  Name;
+}

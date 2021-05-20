@@ -3,7 +3,7 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <DEVC>
-    <CTEXT>HsKA_2020 / Gruppe 00</CTEXT>
+    <CTEXT>HsKA ABAP Kurs</CTEXT>
     <TPCLASS>X</TPCLASS>
    </DEVC>
   </asx:values>
