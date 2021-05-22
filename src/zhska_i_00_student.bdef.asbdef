@@ -1,17 +1,22 @@
-managed; // implementation in class zbp_hska_i_00_student unique;
+managed implementation in class zbp_hska_i_00_student unique;
 
-define behavior for ZHSKA_I_00_STUDENT //alias <alias_name>
+define behavior for ZHSKA_I_00_STUDENT alias Student
 persistent table zhska_00_student
 lock master
 //authorization master ( instance )
 //etag master <field_name>
 {
+  field ( readonly, numbering : managed ) StudentGUID;
+
   create;
   update;
   delete;
 
+  validation validateStudentID on save { create; field StudentID; }
+
   mapping for zhska_00_student
   {
+    StudentGUID = student_guid;
     StudentID = student_id;
     Name = name;
   }

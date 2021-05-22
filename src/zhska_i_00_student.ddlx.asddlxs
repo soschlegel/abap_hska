@@ -8,10 +8,13 @@ annotate view ZHSKA_I_00_STUDENT with
                  label:           'Studentendaten',
                  position:        10 } ]
 
-  @UI.lineItem: [{ position: 10 }]
-  @UI.identification: [{   position: 10 }]
+  @UI.hidden: true
+  StudentGUID;
+
+  @UI.lineItem: [{ label: 'Studenten ID' }]
+  @UI.identification: [{ label: 'Studenten Nummer' }]
   StudentID;
-  
+
   @UI.lineItem: [{ label: 'Name' }]
   @UI.identification: [{ label: 'Name des Studenten' }]
   Name;
