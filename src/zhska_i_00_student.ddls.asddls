@@ -3,6 +3,7 @@
 @Metadata.allowExtensions: true
 define root view entity ZHSKA_I_00_STUDENT
   as select from zhska_00_student
+  composition [0..*] of ZHSKA_I_00_Course as _Course
 {
 
 
@@ -12,5 +13,7 @@ define root view entity ZHSKA_I_00_STUDENT
 
        name            as Name,
 
-       is_matriculated as IsMatriculated
+       is_matriculated as IsMatriculated,
+
+       _Course
 }

@@ -1,0 +1,5 @@
+@EndUserText.label: 'Stundent ServiceDefintion'
+define service ZHSKA_SD_00_STUDENT_simple {
+  expose ZHSKA_I_00_STUDENT as Student;
+  expose ZHSKA_I_00_COURSE as Course;
+}

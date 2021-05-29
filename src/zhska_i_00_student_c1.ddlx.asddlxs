@@ -1,7 +1,7 @@
-@Metadata.layer: #INDUSTRY
+@Metadata.layer: #CUSTOMER
 
 @UI: {
-  headerInfo: { typeName: 'Student', typeNamePlural: 'Studenten', title: { type: #STANDARD, value: 'Name' } } }
+  headerInfo: { typeName: 'Azubi', typeNamePlural: 'Azubis', title: { type: #STANDARD, value: 'Name' } } }
 
 annotate view ZHSKA_I_00_STUDENT with
 {
@@ -23,7 +23,7 @@ annotate view ZHSKA_I_00_STUDENT with
   StudentGUID;
 
   @UI.lineItem: [{ label: 'Studenten ID' }]
-  @UI.identification: [{ label: 'Studenten Nummer' }]
+  @UI.identification: [{ label: 'Azubis Nummer' }]
   StudentID;
 
   @UI.lineItem: [{ label: 'Name' }]

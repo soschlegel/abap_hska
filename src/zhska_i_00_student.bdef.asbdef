@@ -20,6 +20,8 @@ lock master
 
   validation validateStudentID on save { create; field StudentID; }
 
+  association _Course { create; }
+
   mapping for zhska_00_student
   {
     StudentGUID = student_guid;
@@ -27,4 +29,31 @@ lock master
     Name = name;
     IsMatriculated = is_matriculated;
   }
+}
+
+define behavior for ZHSKA_I_00_COURSE alias Course
+persistent table zhska_00_course
+lock dependent by _Student
+{
+
+  field ( readonly, numbering : managed ) CourseGuid;
+
+  update;
+  delete;
+
+  field ( readonly ) StudentGuid;
+
+  mapping for zhska_00_course
+  {
+    CourseGuid = course_guid;
+    Description = description;
+    StudentGuid = student_guid;
+    Title = title;
+  }
+
+
+  association _Student;
+
+
+
 }

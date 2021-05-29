@@ -1,0 +1,26 @@
+@Metadata.layer: #CUSTOMER
+
+@UI: {
+  headerInfo: { typeName: 'Kurs', typeNamePlural: 'Kurse', title: { type: #STANDARD, value: 'Title' } } }
+
+annotate view ZHSKA_I_00_COURSE with
+{
+
+   
+
+  @UI.facet: [ { id:              'Kurs',
+                 purpose:         #STANDARD,
+                 type:            #IDENTIFICATION_REFERENCE,
+                 label:           'Kursdaten',
+                 position:        10 } ]
+  @UI.hidden: true
+  CourseGuid;
+  @UI.lineItem: [{ label: 'Titel' }]
+  @UI.identification: [{ label: 'Titel' }]
+  Title;
+  @UI.hidden: true
+  StudentGuid;
+  @UI.lineItem: [{ label: 'Beschreibung' }]
+  @UI.identification: [{ label: 'Beschreibung' }]
+  Description;
+}
