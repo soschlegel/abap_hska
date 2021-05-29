@@ -6,9 +6,11 @@ define root view entity ZHSKA_I_00_STUDENT
 {
 
 
-  key  student_guid as StudentGUID,
+  key  student_guid    as StudentGUID,
 
-       student_id   as StudentID,
+       student_id      as StudentID,
 
-       name         as Name
+       name            as Name,
+
+       is_matriculated as IsMatriculated
 }

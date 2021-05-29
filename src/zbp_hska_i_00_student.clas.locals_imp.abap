@@ -9,7 +9,15 @@ CLASS lhc_student DEFINITION INHERITING FROM cl_abap_behavior_handler.
       validate_student_id
         FOR VALIDATE ON SAVE
         IMPORTING keys
-                    FOR Student~validateStudentID.
+                    FOR Student~validateStudentID,
+      matriculateStudent
+        FOR MODIFY
+        IMPORTING keys
+                    FOR ACTION Student~matriculateStudent RESULT result,
+      get_instance_features
+        FOR INSTANCE FEATURES
+            IMPORTING keys
+            REQUEST requested_features FOR Student RESULT result.
 
 ENDCLASS.
 
@@ -31,8 +39,8 @@ CLASS lhc_student IMPLEMENTATION.
 
     LOOP AT lt_students INTO DATA(student).
 
-      IF line_exists( student_ids[ student_id = student-StudentID ] )
-      OR student-StudentID IS INITIAL.
+      IF line_exists( student_ids[ student_id = student-StudentID ] ).
+*      OR student-StudentID IS INITIAL.
 
 
         APPEND VALUE #( studentguid  = student-StudentGUID ) TO failed-student.
@@ -56,6 +64,46 @@ CLASS lhc_student IMPLEMENTATION.
     ENDLOOP.
 
 
+  ENDMETHOD.
+
+  METHOD matriculateStudent.
+
+    READ ENTITIES OF zhska_i_00_student IN LOCAL MODE
+        ENTITY Student
+        ALL FIELDS WITH CORRESPONDING #( keys )
+        RESULT DATA(students)
+        FAILED failed
+        REPORTED reported.
+
+    LOOP AT students ASSIGNING FIELD-SYMBOL(<student>).
+
+      <student>-IsMatriculated = abap_true.
+
+
+    ENDLOOP.
+
+
+    MODIFY ENTITIES OF zhska_i_00_student IN LOCAL MODE
+           ENTITY Student
+              UPDATE FIELDS ( IsMatriculated )
+                 WITH VALUE #( FOR student IN students ( StudentGUID = student-StudentGUID
+                                                         IsMatriculated = student-IsMatriculated ) )
+           FAILED   failed
+           REPORTED reported.
+
+    IF failed IS INITIAL.
+
+      result = VALUE #( FOR student IN students ( StudentGUID = student-StudentGUID
+                                                  %param    = student ) ).
+
+
+
+    ENDIF.
+
+
+  ENDMETHOD.
+
+  METHOD get_instance_features.
   ENDMETHOD.
 
 ENDCLASS.

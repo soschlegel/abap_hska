@@ -8,9 +8,15 @@ lock master
 {
   field ( readonly, numbering : managed ) StudentGUID;
 
+  field ( readonly ) IsMatriculated;
+
+  field ( mandatory ) StudentID;
+
   create;
   update;
   delete;
+
+  action ( features : instance ) matriculateStudent result [1] $self;
 
   validation validateStudentID on save { create; field StudentID; }
 
@@ -19,5 +25,6 @@ lock master
     StudentGUID = student_guid;
     StudentID = student_id;
     Name = name;
+    IsMatriculated = is_matriculated;
   }
 }

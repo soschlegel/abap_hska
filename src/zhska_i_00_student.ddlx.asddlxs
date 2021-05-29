@@ -18,4 +18,10 @@ annotate view ZHSKA_I_00_STUDENT with
   @UI.lineItem: [{ label: 'Name' }]
   @UI.identification: [{ label: 'Name des Studenten' }]
   Name;
+  
+  @UI.lineItem: [{ label: 'Immatrikuliert' },
+                 { type: #FOR_ACTION, dataAction: 'matriculateStudent', label: 'Student immatrikulieren' } ]
+  @UI.identification: [{ label: 'Immatrikuliert' },
+                       { type: #FOR_ACTION, dataAction: 'matriculateStudent', label: 'Student immatrikulieren' } ]
+  IsMatriculated;
 }
