@@ -1,0 +1,29 @@
+managed implementation in class zbp_hska_i_00_prof unique;
+
+define behavior for ZHSKA_I_00_Prof //alias <alias_name>
+persistent table zhska_00_prof
+lock master
+//etag master <field_name>
+{
+
+
+  field ( readonly, numbering : managed ) ProfGuid;
+
+  create;
+  update;
+  delete;
+
+  mapping for zhska_00_prof
+  {
+    ProfGuid = prof_guid;
+    Name = name;
+    LastChangedAt = last_changed_at;
+    LocalCreatedAt = local_created_at;
+    LocalCreatedBy = local_created_by;
+    LocalLastChangedAt = local_last_changed_at;
+    LocalLastChangedBy = local_last_changed_by;
+
+
+  }
+
+}

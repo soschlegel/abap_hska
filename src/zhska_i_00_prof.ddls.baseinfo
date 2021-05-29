@@ -3,14 +3,10 @@
 {
 "FROM":
 [
-"ZHSKA_I_00_PROF",
-"ZHSKA_00_COURSE"
+"ZHSKA_00_PROF"
 ],
 "ASSOCIATED":
-[
-"ZHSKA_I_00_PROF",
-"ZHSKA_I_00_STUDENT"
-],
+[],
 "BASE":
 [],
 "ANNO_REF":

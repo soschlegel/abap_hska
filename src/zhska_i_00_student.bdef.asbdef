@@ -1,10 +1,12 @@
 managed implementation in class zbp_hska_i_00_student unique;
+with draft;
 
 define behavior for ZHSKA_I_00_STUDENT alias Student
 persistent table zhska_00_student
+draft table zhska_00_stud_d
 lock master
-//authorization master ( instance )
-//etag master <field_name>
+total etag LastChangedAt
+etag master LocalLastChangedAt
 {
   field ( readonly, numbering : managed ) StudentGUID;
 
@@ -20,7 +22,7 @@ lock master
 
   validation validateStudentID on save { create; field StudentID; }
 
-  association _Course { create; }
+  association _Course { create; with draft; }
 
   mapping for zhska_00_student
   {
@@ -28,12 +30,19 @@ lock master
     StudentID = student_id;
     Name = name;
     IsMatriculated = is_matriculated;
+    LastChangedAt = last_changed_at;
+    LocalCreatedAt = local_created_at;
+    LocalCreatedBy = local_created_by;
+    LocalLastChangedAt = local_last_changed_at;
+    LocalLastChangedBy = local_last_changed_by;
   }
 }
 
 define behavior for ZHSKA_I_00_COURSE alias Course
 persistent table zhska_00_course
+draft table zhska_00_cour_d
 lock dependent by _Student
+etag master LocalLastChangedAt
 {
 
   field ( readonly, numbering : managed ) CourseGuid;
@@ -48,10 +57,12 @@ lock dependent by _Student
     CourseGuid = course_guid;
     Description = description;
     StudentGuid = student_guid;
+    ProfGuid = prof_guid;
     Title = title;
+    LocalLastChangedAt = local_last_changed_at;
   }
 
 
-  association _Student;
+  association _Student { with draft; }
 
 }

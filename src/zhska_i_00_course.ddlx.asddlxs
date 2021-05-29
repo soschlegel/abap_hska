@@ -23,4 +23,15 @@ annotate view ZHSKA_I_00_COURSE with
   @UI.lineItem: [{ label: 'Beschreibung' }]
   @UI.identification: [{ label: 'Beschreibung' }]
   Description;
+  
+  @Consumption:
+   { valueHelpDefinition: [{ entity : {name: 'ZHSKA_I_00_Prof', element: 'ProfGuid'  }}] ,
+     filter: { selectionType: #SINGLE } }
+     
+  @UI.lineItem: [{ label: 'Bertreuer' }]
+  @UI.identification: [{ label: 'Betreuer' }]
+  
+  ProfGuid;
+  
+  
 }

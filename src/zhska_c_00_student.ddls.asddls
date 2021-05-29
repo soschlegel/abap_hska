@@ -7,5 +7,10 @@ define root view entity ZHSKA_C_00_STUDENT
       StudentID,
       Name,
       IsMatriculated,
+      LastChangedAt,
+      LocalLastChangedAt,
+      LocalLastChangedBy,
+      LocalCreatedAt,
+      LocalCreatedBy,
       _Course: redirected to composition child ZHSKA_C_00_COURSE
 }

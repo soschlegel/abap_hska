@@ -7,6 +7,9 @@ define view entity ZHSKA_C_00_COURSE
       Title,
       StudentGuid,
       Description,
+      ProfGuid,
+      LocalLastChangedAt,
       /* Associations */
+      _Prof,
       _Student : redirected to parent ZHSKA_C_00_STUDENT
 }
