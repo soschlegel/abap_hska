@@ -1,0 +1,8 @@
+@Metadata.layer: #CUSTOMER
+annotate view ZHSKA_C_00_Student_Admin with
+{
+  @UI.lineItem: [ { type: #FOR_ACTION, dataAction: 'matriculateStudent', label: 'Student immatrikulieren' } ]
+  @UI.identification: [{ type: #FOR_ACTION, dataAction: 'matriculateStudent', label: 'Student immatrikulieren' } ]
+  IsMatriculated;
+
+}

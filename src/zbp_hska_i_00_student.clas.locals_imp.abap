@@ -70,7 +70,8 @@ CLASS lhc_student IMPLEMENTATION.
 
     READ ENTITIES OF zhska_i_00_student IN LOCAL MODE
         ENTITY Student
-        ALL FIELDS WITH CORRESPONDING #( keys )
+        ALL FIELDS
+        WITH CORRESPONDING #( keys )
         RESULT DATA(students)
         FAILED failed
         REPORTED reported.
