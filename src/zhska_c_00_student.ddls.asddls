@@ -6,5 +6,6 @@ define root view entity ZHSKA_C_00_STUDENT
   key StudentGUID,
       StudentID,
       Name,
-      IsMatriculated
+      IsMatriculated,
+      _Course: redirected to composition child ZHSKA_C_00_COURSE
 }

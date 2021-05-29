@@ -11,7 +11,7 @@ annotate view ZHSKA_I_00_STUDENT with
                  type:            #IDENTIFICATION_REFERENCE,
                  label:           'Studentendaten',
                  position:        10 },
-              { id:              'Booking',
+              { id:              'Courses',
                      purpose:         #STANDARD,
                      type:            #LINEITEM_REFERENCE,
                      label:           'Kurse',

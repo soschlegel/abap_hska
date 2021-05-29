@@ -4,8 +4,19 @@ projection;
 define behavior for ZHSKA_C_00_STUDENT alias Student
 {
   use create;
-//  use update;
-//  use delete;
+  //  use update;
+  //  use delete;
 
-//  use action matriculateStudent;
+  use association _Course { create; }
+
+  //  use action matriculateStudent;
+}
+
+
+define behavior for ZHSKA_C_00_COURSE alias Course
+{
+
+  use association _Student;
+
+
 }
